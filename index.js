@@ -36,7 +36,7 @@
             }
 
 
-                else if (player === 'scissors' && computer === 'rock')  {
+                else if (player === 'rock' && computer === 'scissors')  {
                     pDisplayer.innerHTML = Number(pDisplayer.innerHTML) + 1;
                     alert.innerHTML = "You Win";
                     alert.style.color = 'green';
