@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="wrap">
+            
+                <h3 id ="status">Are you ready?</h3>
+            
+            <div class="cp">
+                <div class="cpscore">
+                <p>Computer:<span id="cpdisplayer">0</span></p>
+                </div>
+                <div class="cpdisplay" id='compSelection'>
+                    <img src="images/rock.png" alt="rock" width=15%>
+                </div>
+            </div>
+            <div class="divide"></div>
+            <div class="player">
+                <div class="pscore">
+                <p>Player:<span id="pdisplayer">0</span></p>
+                </div>
+                <div class="pdisplay">
+                    <img src="images/rock.png" alt="rock" width=15%>
+                </div>
+            </div>
+            <button id="play-again">Play Again</button>
+            <div class="tools">
+                <input class="p-selection" data-value="0" type="image" src="/images/rock.png"    width=10%/>
+                <input class="p-selection" data-value="1" type="image" src="/images/paper.png"  width=10% />
+                <input class="p-selection" data-value="2" type="image" src="/images/scissors.png"  width=10% />
+            </div>
+        </div>
+        <p>PS: Click on the "Play Again" Button after each play</p>
+        <script src="ap.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-color:rgb(246, 247, 240);
+margin:0;
+padding:0;
+
+}
+
+h1,h3{
+    text-align: center;
+}
+h3{
+    color:#2155;
+}
+
+
+.landingIcon{
+    display:block;
+    width:40%;
+    margin:0.45em auto;
+}
+
+button{
+    display:block;
+    margin:1em auto;
+    cursor: pointer;
+    background-color:black ;
+    color:goldenrod;
+    border: none;
+    padding: 0.50em 1.45em;
+    border-radius:10em; 
+}
+
+input{
+    display:block;
+    margin: 0.45em auto;
+    
+}
+
+.startIcon{
+    display:block;
+    margin:3em auto;
+}
+
+ .cpdisplay ,.pdisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+      
+}
+
+.wrap{
+    width:50%;
+    border: 0.25em solid rgb(230, 180, 19);
+    margin: 2em auto;
+}
+
+
+.tools{
+    display: flex;
+    justify-content: center;
+    
+}
+.divide{
+    border:0.10em solid rgb(230, 180, 19);
+}
+P{
+    text-align: center;
+}
+
+
+
