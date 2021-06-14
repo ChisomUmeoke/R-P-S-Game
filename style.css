@@ -54,7 +54,8 @@ input{
 }
 
 .wrap{
-    width:50%;
+    width: 45%;
+    height:80vh;
     border: 0.25em solid rgb(230, 180, 19);
     margin: 2em auto;
 }
@@ -63,6 +64,7 @@ input{
 .tools{
     display: flex;
     justify-content: center;
+    margin-top:2em;
     
 }
 .divide{
